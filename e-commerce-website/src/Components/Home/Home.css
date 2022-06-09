@@ -1,0 +1,28 @@
+
+
+.main{
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 70vw;
+    /* height: 1000px; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px;
+}
+
+.box1{
+    /* border: 1px solid red; */
+    width:280px;
+    height: 500px;
+    cursor: pointer;
+}
+
+
+
+.box1 img{
+    width: 280px;
+    height: 500px;
+
+}

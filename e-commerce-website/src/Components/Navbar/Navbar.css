@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Rubik:ital,wght@1,300&display=swap');
+
+
+.nav{
+    /* border: 1px solid red; */
+    background-color: #371B58;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav-name{
+    /* border: 1px solid red; */
+    color: white;
+    font-size: 40px;
+    font-family: 'Blaka', cursive;
+    cursor: pointer;
+}
+
+.nav-name:hover{
+  color: aquamarine;
+}
+
+.nav-detail{
+    /* border: 1px solid red; */
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+.nav-bag{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+.nav-acc{
+    color: rgb(246, 26, 26);
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
