@@ -1,0 +1,30 @@
+
+
+.cont{
+    /* border: 1px solid red; */
+    width: 83vw;
+    /* height: 400px; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.box2{
+    /* border: 1px solid black; */
+    width: 350px;
+    /* height:450px; */
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 8px;
+}
+
+.box2:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box2 img{
+    width: 350px;
+    height: 300px;
+}

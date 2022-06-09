@@ -50,3 +50,7 @@
     font-family: 'Rubik', sans-serif;
     cursor: pointer;
 }
+
+link{
+    text-decoration: none;
+}
