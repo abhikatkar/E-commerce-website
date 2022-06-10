@@ -17,22 +17,20 @@ export const Navbar = () => {
           <div className="nav-name">Mobile Shop</div>
           </Link>
 
-          <Link to={"/detail"}> 
+          {
+              value ? 
+              <Link to={"/detail"}> 
           <div className="nav-detail">Products Detail</div>
           </Link>
-
-        {
-            value ? 
-            <Link to={"/bag"}>
-          <div className="nav-bag"><BsFillHandbagFill/></div>
-          </Link>
           :
-          <Link to={"/signin"}>
+          <Link to={"/signin"}> 
+          <div className="nav-detail">Products Detail</div>
+          </Link>
+          }
+
+        <Link to={"/bag"}>
           <div className="nav-bag"><BsFillHandbagFill/></div>
           </Link>
-        }
-
-
 
          {
              value ?
