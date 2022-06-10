@@ -1,0 +1,38 @@
+
+
+
+.form{
+    /* border: 1px solid red; */
+    width: 40vw;
+    /* height: 700px; */
+    margin: auto;
+    text-align: center;
+}
+
+.form input{
+    margin-top: 20px;
+    margin-left: 20px;
+   width: 25%;
+   height: 20px;
+}
+
+.form hr{
+    margin-top: 20px;
+}
+
+.form button{
+    width: 70%;
+    height: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    background-color: rgb(159, 147, 239);
+    font-weight: bolder;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form button:hover{
+    background-color: #371B58;
+    color: white;
+}

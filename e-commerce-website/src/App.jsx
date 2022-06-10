@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Detail } from './Components/Detail/Detail';
 import { Bag } from './Components/Bag/Bag';
 import { Payment } from './Components/Payment/Payment';
+import { SignIn } from './Components/Signin/Signin';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Route path='/detail' element={<Detail/>}/>
         <Route path='/bag' element={<Bag/>}/>
         <Route path='/payment/:cost' element={<Payment/>}/>
+        <Route path='/signin' element={<SignIn/>}/>
+
       </Routes>
     </div>
   );

@@ -29,8 +29,11 @@ export const Bag = () => {
         <div>
             <Navbar/>
           
+             <div className="big-box">
+                 <h1>My Bag</h1>
 
             <div className='cont'>
+                
               { bag_data.map((e)=>{
                     return(
                         <div className='box2'>
@@ -58,11 +61,12 @@ export const Bag = () => {
                <h1>Shipping Charge - Rs 100</h1>
                <h1>Grand Total -  Rs {cost=cost+100}</h1>
                <Link to={`/payment/${cost}`}>
-               <button>Proceed</button>
+               <button>PROCEED TO CHECKOUT</button>
                </Link>
                </div>
 
             <Footer/>
+        </div>
         </div>
     )
 }
