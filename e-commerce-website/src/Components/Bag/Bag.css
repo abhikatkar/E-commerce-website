@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Rubik:ital,wght@1,300&display=swap');
+
+
+.img-box{
+    /* border: 1px solid red; */
+    width: 45vw;
+    height: 80vh;
+    margin: auto;
+    text-align: center;
+}
+
+
+.total-cost{
+    /* border: 1px solid red; */
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #371B58;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding: 20px;
+}
+
+.total-cost button{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #371B58;
+
+}
+
+.total-cost button:hover{
+    color: white;
+    background: #7858A6;
+}

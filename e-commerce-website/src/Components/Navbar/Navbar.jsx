@@ -17,7 +17,11 @@ export const Navbar = () => {
           <Link to={"/detail"}> 
           <div className="nav-detail">Products Detail</div>
           </Link>
+
+        <Link to={"/bag"}>
           <div className="nav-bag"><BsFillHandbagFill/></div>
+          </Link>
+
           <div className="nav-acc"><MdAccountCircle/></div>
 
           

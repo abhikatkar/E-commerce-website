@@ -28,10 +28,7 @@ const dispatch = useDispatch();
                      <h5>Star - {e.star}/5</h5>
                      <button onClick={()=>{
                          dispatch(bagData(e))
-                     }}>Add</button>
-                     <button onClick={()=>{
-                         dispatch(removeData(e._id))
-                     }}>remove</button>
+                     }}>Add to bag</button>
                 </div>
                     )
                   })
