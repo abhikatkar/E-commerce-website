@@ -4,12 +4,13 @@ import { initializeApp } from "firebase/app";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAkTnrE8SmY7dIiQg1lsVrpShGshzWGASU",
-  authDomain: "react--auth-dbf40.firebaseapp.com",
-  projectId: "react--auth-dbf40",
-  storageBucket: "react--auth-dbf40.appspot.com",
-  messagingSenderId: "937066745193",
-  appId: "1:937066745193:web:aa13f15a25355f553181f8"
+    apiKey: "AIzaSyCZNsJBkyHZAuWHshwtr6QEnJezIceDW0c",
+    authDomain: "e-commerce-37b4e.firebaseapp.com",
+    projectId: "e-commerce-37b4e",
+    storageBucket: "e-commerce-37b4e.appspot.com",
+    messagingSenderId: "666619447494",
+    appId: "1:666619447494:web:f89ac9f0907c09e721efc7",
+    measurementId: "G-HV7PE028SW"
 };
 
 
