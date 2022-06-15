@@ -13,7 +13,7 @@ export const Bag = () => {
     const {bag_data} = useSelector((store)=> store.bag_data)
     const dispatch = useDispatch();
      let cost = 0;
-
+     console.log(bag_data.length)
 
     return(
         bag_data.length === 0 ? 
@@ -31,6 +31,7 @@ export const Bag = () => {
           
              <div className="big-box">
                  <h1>My Bag</h1>
+                
 
             <div className='cont'>
                 

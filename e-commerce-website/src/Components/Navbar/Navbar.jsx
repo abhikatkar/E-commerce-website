@@ -9,6 +9,8 @@ import { useSelector } from "react-redux";
 export const Navbar = () => {
 
     const {value,user}  = useSelector((store) => store.value);
+    const {bag_data} = useSelector((store)=> store.bag_data)
+    
 
     return(
         <div className="nav">
@@ -24,7 +26,8 @@ export const Navbar = () => {
           
 
         <Link to={"/bag"}>
-          <div className="nav-bag"><BsFillHandbagFill/></div>
+          <div className="nav-bag"><BsFillHandbagFill/> {bag_data.length}</div>
+          
           </Link>
 
          {
