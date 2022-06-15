@@ -10,7 +10,7 @@ const navi = useNavigate();
 
 function call(){
     alert("YOUR ORDER HAS BEEN PLACED")
-    window.location.href = "https://abhi-e-commerce.netlify.app/signin"
+    window.location.href = "http://localhost:3000/"
 }
 
     return(
