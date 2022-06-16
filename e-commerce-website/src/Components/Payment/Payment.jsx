@@ -31,7 +31,7 @@ function call(){
                 <label htmlFor="">City</label>
                 <input type="text" /><br />
                 <label htmlFor="">Phone</label>
-                <input type="number" /><br />
+                <input className='phone' type="number"  /><br />
                 <hr />
                 <h2>CARD DETAILS</h2>
                 <label htmlFor="">Card Number</label>
@@ -44,7 +44,7 @@ function call(){
                 <input type="number" placeholder='CVC' /><br />
                 <hr />
 
-                <h2>Grand Total - {cost}</h2>
+                <h2>Grand Total - Rs. {cost}</h2>
                 <button onClick={call}>PLACE ORDER</button>
                  
             </div>

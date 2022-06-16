@@ -18,7 +18,7 @@ const dispatch = useDispatch();
             <Navbar/>
 
             <div className='cont'>
-              { data.map((e)=>{
+              { data.map((e,i)=>{
                     return(
                         <div className='box2'>
                      <img src={e.img2} alt="" />
@@ -26,8 +26,11 @@ const dispatch = useDispatch();
                      <h4> Company - {e.company}</h4>
                      <h4>Rs {e.price}</h4>
                      <h5>Star - {e.star}/5</h5>
-                     <button onClick={()=>{
+                     <button className='added'>added</button>
+                     <button className='add' onClick={()=>{
                          dispatch(bagData(e))
+                         document.getElementsByClassName("added")[i].style.display = "block"
+                         document.getElementsByClassName("add")[i].style.display = "none"
                      }}>Add to bag</button>
                 </div>
                     )
